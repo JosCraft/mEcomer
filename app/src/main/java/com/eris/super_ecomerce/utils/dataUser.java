@@ -33,7 +33,7 @@ public class dataUser {
         if (idCliente != -1 && nombre != null && email != null) {
             return new Cliente(idCliente, nombre, direccion, telefono, email, password);
         } else {
-            return null;
+            return new Cliente(-1,"", "", 0, "", "");
         }
     }
 
