@@ -57,6 +57,31 @@
         android:text="contraseña123"
         />
 
+
+    <!-- Switch para seleccionar entre Delivery o Cliente -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="¿Eres Delivery?"
+          android:textSize="16sp"
+          android:layout_marginEnd="8dp" />
+
+      <Switch
+          android:id="@+id/deliverySwitch"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:thumbTint="@color/design_default_color_on_primary"
+          android:trackTint="@color/design_default_color_on_secondary" />
+    </LinearLayout>
+
+
     <!-- Botón de inicio de sesión -->
     <Button
         android:id="@+id/loginButton"
